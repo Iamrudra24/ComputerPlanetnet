@@ -144,14 +144,16 @@ const ContactSection = () => {
          {/* GOOGLE MAP */}
 <div className="map-wrapper">
 
+
+
 <iframe
   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3628.4401916502034!2d80.83288209999999!3d24.5740002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39847f28958be359%3A0xca0b200da264fa1d!2sComputer%20Planet%20Tech%20Solutions%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1772005271391!5m2!1sen!2sin"
   width="600"
   height="450"
   style={{ border: 0 }}
-  allowFullScreen
+  allowFullScreen=""
   loading="lazy"
-  referrerPolicy="no-referrer-when-downgrade"
+  title="Google Map Location"
 />
 
   {/* ✅ OVERLAY DIRECTION BUTTON */}
