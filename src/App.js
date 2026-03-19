@@ -9,6 +9,7 @@ import HeroSection from './components/HeroSection';
 import ProductsSection from './components/ProductsSection';
 import SoftwareSection from './components/SoftwareSection';
 import WhyChooseSection from './components/WhyChooseSection';
+import TeamSection from './components/TeamSection';
 
 
 
@@ -22,6 +23,7 @@ function App() {
       <ProductsSection />
       <SoftwareSection />
       <WhyChooseSection />
+      <TeamSection />
       <ContactSection />
       <Footer />
    </>
