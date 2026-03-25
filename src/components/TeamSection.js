@@ -21,6 +21,10 @@ const TeamSection = () => {
   return (
     <section className="team-section">
       <h2 className="team-title">Meet Our Team</h2>
+      <div className="title-underline"></div>
+      <br />
+      <br />
+      <br />
 
       <div className="team-container">
         {teamData.map((member, index) => (
